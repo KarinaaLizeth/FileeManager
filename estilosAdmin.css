@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    font-family: Poppins;
+    background: #fae0e4;
+
+}
+h1,h2{
+    text-align: center;
+    font-size: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffe5ec;
+    padding: 15px 20px;
+  }
+  
+  .menu p {
+    text-align: center;
+    margin: 0;
+    flex: 1; 
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+  }
+  .icono{
+    vertical-align: middle;
+    padding-left: 3px;
+  }
+  .menu a:hover{
+    color: #ff0044;
+  }
+  
+
+table{
+    background: rgba(255, 255, 255, 0.35);
+    border-collapse: collapse;
+    text-align: left;
+    overflow: hidden;
+    border-radius: 13px;
+    width: 90%;
+    margin: auto;
+}
+
+table thead {
+    box-shadow: 0 5px 10px #e1e5ee;
+  }
+  
+  table th {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 1000;
+  }
+  
+  table td {
+    padding: 5px 15px;
+  }
+  
+  table a {
+    text-decoration: none;
+    color: #89023e;
+  }
+
+  table a:hover{
+    color: #ee2677;
+  }
+  td button{
+    background-color: #ff8fa3;
+    color: #fff0f3;
+    font-size: 12px;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+td button:hover{
+  background-color: #c9184a;
+  color: #ffe5ec;
+  
+}
+.form{
+    width: 50%;
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.form input{
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #000000;
+    font-size: 12px;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-family: Poppins;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input:focus-visible {
+    outline: 1px solid rgb(186, 83, 169);
+    border-radius: 3px;
+  }
+
+.submit:hover{
+    background-color: #c9184a;
+    color: #ffffff;
+  }
